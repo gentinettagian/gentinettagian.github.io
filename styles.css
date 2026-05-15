@@ -1,10 +1,10 @@
 :root {
-  --bg: #c4e6e622;
+  --bg: #c4e6e60a;
   --surface: #ffffff;
   --text: #24211e;
   --muted: #585d68;
   --line: #566f878f;
-  --accent: #4973a0e7;
+  --accent: #325982e7;
   --accent-strong: #3a5ab0;
   --shadow: 0 10px 35px rgba(31, 30, 36, 0.08);
   --max-width: 1160px;
@@ -364,8 +364,8 @@ h3 {
 }
 
 .authors {
-  color: var(--muted);
-  font-weight: 650;
+  color: var(--accent);
+  font-weight: 600;
 }
 
 .pub-links {
