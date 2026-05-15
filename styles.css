@@ -211,7 +211,7 @@ h3 {
 .portrait img {
   width: min(100%, 300px);
   aspect-ratio: 1 / 1.12;
-  border-radius: 50%;
+  border-radius: 5%;
   border: 1px solid var(--line);
   box-shadow: var(--shadow);
   object-fit: cover;
