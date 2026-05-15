@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Personal website of Gian Gentinetta.">
+  <title>Gian Gentinetta</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Home">Gian Gentinetta</a>
+    <nav class="nav" aria-label="Primary navigation">
+      <a class="nav-link active" href="index.html" aria-current="page">Home</a>
+      <a class="nav-link" href="publications.html">Publications</a>
+      <a class="nav-link" href="talks.html">Activity</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section">
+      <div class="hero-copy">
+        <p class="eyebrow">Quantum computing researcher | Computational physicist</p>
+        <h1>Gian Gentinetta</h1>
+        <p class="lead">
+          I am a computational physicist working on hybrid quantum-classical methods for simulating quantum many-body
+          systems.
+          My research combines quantum computing algorithms with modern classical methods, including machine learning
+          and variational Monte Carlo.
+        </p>
+        <div class="link-row social-links" aria-label="Profile links">
+          <a class="social-link" href="mailto:firstname.lastname@epfl.ch">
+            <svg class="social-icon" aria-hidden="true" viewBox="0 0 24 24">
+              <path d="M4 6h16v12H4z"></path>
+              <path d="m4 7 8 6 8-6"></path>
+            </svg>
+            <span>Email</span>
+          </a>
+          <a class="social-link" href="https://scholar.google.com/citations?user=eRa78bYAAAAJ&hl=en"
+            aria-label="Google Scholar profile">
+            <svg class="social-icon" aria-hidden="true" viewBox="0 0 24 24">
+              <path d="M12 3 3 8l9 5 9-5-9-5Z"></path>
+              <path d="M6 10v5c0 2 3 4 6 4s6-2 6-4v-5"></path>
+            </svg>
+            <span>Scholar</span>
+          </a>
+          <a class="social-link" href="https://orcid.org/0000-0002-5891-3289" aria-label="ORCID profile">
+            <svg class="social-icon" aria-hidden="true" viewBox="0 0 24 24">
+              <circle cx="12" cy="12" r="9"></circle>
+              <path d="M8.5 8v8"></path>
+              <path d="M11.5 8h2.25a4 4 0 0 1 0 8H11.5Z"></path>
+            </svg>
+            <span>ORCID</span>
+          </a>
+          <a class="social-link" href="https://github.com/gentinettagian" aria-label="GitHub profile">
+            <svg class="social-icon" aria-hidden="true" viewBox="0 0 24 24">
+              <path d="M9 19c-5 1.5-5-2.5-7-3"></path>
+              <path
+                d="M15 22v-3.9a3.4 3.4 0 0 0-1-2.6c3.2-.4 6.5-1.6 6.5-7A5.4 5.4 0 0 0 19 4.7 5 5 0 0 0 18.9 1S17.7.6 15 2.5a13.4 13.4 0 0 0-7 0C5.3.6 4.1 1 4.1 1A5 5 0 0 0 4 4.7a5.4 5.4 0 0 0-1.5 3.8c0 5.4 3.3 6.6 6.5 7a3.4 3.4 0 0 0-1 2.6V22">
+              </path>
+            </svg>
+            <span>GitHub</span>
+          </a>
+          <a class="social-link" href="https://linkedin.com/in/gian-gentinetta/" aria-label="LinkedIn profile">
+            <svg class="social-icon" aria-hidden="true" viewBox="0 0 24 24">
+              <path d="M16 8a6 6 0 0 1 6 6v6h-4v-6a2 2 0 0 0-4 0v6h-4v-12h4v1.7A4.6 4.6 0 0 1 16 8Z"></path>
+              <path d="M2 9h4v11H2z"></path>
+              <circle cx="4" cy="4" r="2"></circle>
+            </svg>
+            <span>LinkedIn</span>
+          </a>
+          <a class="social-link" href="https://gentinetta.bsky.social" aria-label="Bluesky profile">
+            <svg class="social-icon" aria-hidden="true" viewBox="0 0 24 24">
+              <path
+                d="M12 11.5C10 7.8 7.2 4.5 4.8 3.4 2.5 2.4 1.5 4.1 2.2 6.8c.4 1.8 2.1 5.1 6.1 6.7-3.2.4-5 1.9-4.4 4 .7 2.6 4.8 2.4 8.1-1.7 3.3 4.1 7.4 4.3 8.1 1.7.6-2.1-1.2-3.6-4.4-4 4-1.6 5.7-4.9 6.1-6.7.7-2.7-.3-4.4-2.6-3.4-2.4 1.1-5.2 4.4-7.2 8.1Z">
+              </path>
+            </svg>
+            <span>Bluesky</span>
+          </a>
+        </div>
+      </div>
+
+      <figure class="portrait">
+        <img src="assets/gg.jpeg" alt="Portrait of Gian Gentinetta" width="300" height="336">
+      </figure>
+    </section>
+
+    <section class="section">
+      <aside class="news-box" aria-labelledby="news-title">
+        <div class="section-heading compact">
+          <p class="eyebrow">News</p>
+          <h2 id="news-title">Recent updates</h2>
+        </div>
+        <ul class="news-list">
+          <li class="news-item with-image">
+            <div>
+              <time datetime="2026-04">April 2026</time>
+              <h3>Presentation at QCTiP 2026</h2>
+                <span>
+                  I had the chance of presenting our work on correcting and extending Trotterized
+                  quantum many-body dynamics at <a href="https://qctipconf.github.io">QCTiP in Oxford</a> . It was a
+                  great
+                  opportunity to
+                  share our results and (re)connect with the quantum algorithms community in the
+                  historic setting of Oxford.
+                </span>
+            </div>
+
+            <img class="news-image" src="assets/qctip_26.jpeg" alt="Photo of QCTiP presentation" width="200"
+              height="150">
+          </li>
+          <li class="news-item">
+            <time datetime="2026-03">March 2026</time>
+            <h3>New paper alert!</h2>
+              <span>
+                Our work on the <a href="https://arxiv.org/abs/2603.25394v1">Quantum Finite Temperature Lanczos
+                  Method</a>, with
+                Friederike Metz, William Kirby, and Giuseppe Carleo, is now on
+                arXiv. We combine real-time quantum Krylov methods with efficient preparation of typcial states to
+                compute thermal expectation values of quantum many-body systems. Check it out!
+              </span>
+          </li>
+        </ul>
+      </aside>
+    </section>
+
+    <section class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Bio</p>
+        <h2>About me</h2>
+      </div>
+      <p class="bio-text">
+        Born and raised in Zurich, Switzerland, I obtained my B.Sc. and M.Sc. degrees
+        in Physics from ETH Zurich. In my masters I focused on machine learning and
+        quantum computing, culminating in a thesis on quantum machine learning performed
+        at IBM Research Zurich. After an internship at IBM, I joined EPFL in 2022 to
+        pursue a Ph.D. in computational quantum physics under the supervision of
+        Prof. Giuseppe Carleo. My research focuses on hybrid quantum-classical algorithms
+        for simulating quantum many-body systems. During my Ph.D., I had the opportunity
+        to join Phasecraft in London for a summer internship, where I worked on quantum algorithms for
+        quantum chemistry and materials science.
+
+        When I'm not in the lab, I am usually found on Swiss trains, on top of a mountain,
+        or swimming in a lake.
+      </p>
+    </section>
+
+    <section class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Research profile</p>
+        <h2>Interests and methods</h2>
+      </div>
+      <div class="tag-grid" aria-label="Research interests">
+        <span>Quantum computation</span>
+        <span>Quantum simulation</span>
+        <span>Quantum many-body systems</span>
+        <span>Near-term quantum algorithms</span>
+        <span>Neural quantum states</span>
+        <span>Tensor networks</span>
+        <span>Variational Monte Carlo</span>
+        <span>Machine learning</span>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>&copy; 2026 Gian Gentinetta</span>
+    <span>Zurich, Switzerland</span>
+  </footer>
+</body>
+
+</html>

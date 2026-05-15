@@ -1,0 +1,9 @@
+<svg width="480" height="560" viewBox="0 0 480 560" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Portrait placeholder</title>
+  <desc id="desc">Minimal placeholder image with the initials GG.</desc>
+  <rect width="480" height="560" fill="#F3EFE8"/>
+  <circle cx="240" cy="204" r="88" fill="#D8CCC0"/>
+  <path d="M104 488C116 390 169 336 240 336C311 336 364 390 376 488H104Z" fill="#C8B9AB"/>
+  <text x="240" y="520" text-anchor="middle" fill="#24211E" font-family="Inter, Arial, sans-serif" font-size="48" font-weight="700">GG</text>
+  <path d="M48 48H432V512H48V48Z" stroke="#E5DFD7" stroke-width="2"/>
+</svg>
